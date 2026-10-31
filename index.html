@@ -31,6 +31,7 @@ a{color:#F2F0EB}a:hover{color:#3D7BFF}
 @keyframes opnfade7{0%{opacity:0;transform:scale(1.02)}2.5%{opacity:1}14.3%{opacity:1}17.5%{opacity:0;transform:scale(1.09)}100%{opacity:0;transform:scale(1.09)}}
 .opn-dot.s7 span{animation-name:opnbar7;animation-duration:35s}
 @keyframes opnbar7{0%{transform:scaleX(0)}14.2%{transform:scaleX(1)}14.3%{transform:scaleX(0)}100%{transform:scaleX(0)}}
+@media (max-width:640px){.opn-meta,.opn-ig,.opn-navcta{display:none !important}.opn-clocks{gap:8px 16px !important}#top{padding-top:28px !important}}
 @media (prefers-reduced-motion: reduce){.opn-track{animation:none}.opn-h,.opn-v{display:none}.opn-slide,.opn-dot span{animation:none}.opn-slide:first-of-type{opacity:1}}
 @media (max-width:640px){.opn-wall{grid-template-columns:repeat(2,minmax(0,1fr)) !important}.opn-wall>*{font-size:16px !important;padding:22px 14px !important}}
 </style>
@@ -53,12 +54,12 @@ a{color:#F2F0EB}a:hover{color:#3D7BFF}
 
 <div style="border-bottom: 1px solid #262626; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #A3A19C">
 <div style="max-width: 1440px; margin: 0 auto; padding: 10px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px">
-<div style="display: flex; flex-wrap: wrap; gap: 8px 28px">
+<div class="opn-clocks" style="display: flex; flex-wrap: wrap; gap: 8px 28px">
 <span>NYC <span style="color: #F2F0EB"><span data-tz="America/New_York"></span></span></span>
 <span>LA <span style="color: #F2F0EB"><span data-tz="America/Los_Angeles"></span></span></span>
 <span>DC <span style="color: #F2F0EB"><span data-tz="America/New_York"></span></span></span>
 </div>
-<a href="https://www.instagram.com/opncreative/" style="color: #A3A19C; text-decoration: none">@opncreative</a>
+<a class="opn-ig" href="https://www.instagram.com/opncreative/" style="color: #A3A19C; text-decoration: none">@opncreative</a>
 </div>
 </div>
 
@@ -68,12 +69,12 @@ a{color:#F2F0EB}a:hover{color:#3D7BFF}
 <a href="#work" style="text-decoration: none">Work</a>
 <a href="#services" style="text-decoration: none">Services</a>
 <a href="#cities" style="text-decoration: none">Cities</a>
-<a href="contact.html" style="text-decoration: none; background: #F2F0EB; color: #0B0B0B; padding: 12px 22px; border-radius: 999px; font-weight: 700; min-height: 20px">Start a project</a>
+<a class="opn-navcta" href="contact.html" style="text-decoration: none; background: #F2F0EB; color: #0B0B0B; padding: 12px 22px; border-radius: 999px; font-weight: 700; min-height: 20px">Start a project</a>
 </nav>
 </header>
 
 <section id="top" style="max-width: 1440px; margin: 0 auto; padding: 48px 32px 48px">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #A3A19C; margin-bottom: 28px">
+<div class="opn-meta" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #A3A19C; margin-bottom: 28px">
 <span>Creative + social agency</span>
 <span>New York / Los Angeles / Washington DC</span>
 <span>Est. 2021</span>
